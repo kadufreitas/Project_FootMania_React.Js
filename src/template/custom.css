@@ -1,0 +1,54 @@
+/*
+ * Content
+*/
+.bg-form{
+    /* background-color: #48a651; */
+    margin-top: -86px;
+    color:white;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 3px 4px -1px rgba(0,0,0,0.2);
+}
+    @media (max-width: 425px) {
+        .bg-form{
+            margin-top: -139px;
+        }
+    }
+
+.competitionName{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.jumbotron{
+    background-color: #48a651;
+    color: white;
+    border-radius: 0rem;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 1)), url(https://http2.mlstatic.com/painel-banner-lona-fosca-30-por-20-campo-de-futebol-D_NQ_NP_889730-MLB27615730268_062018-F.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    @media (max-width: 425px) {
+        .jumbotron{
+            padding-bottom: 140px;
+        }
+    }
+
+tr{
+    opacity: 1;
+    animation: fade-in-top ease 0.4s forwards;
+}
+
+/*
+ * Animations
+*/
+@keyframes fade-in-top {
+    from {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
